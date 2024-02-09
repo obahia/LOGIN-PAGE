@@ -1,0 +1,23 @@
+/* Adicionando estilo para os rótulos animados */
+.animated-label {
+    position: absolute;
+    pointer-events: none;
+    transition: 0.2s ease-out;
+    left: 12px;
+    top: 8px;
+    color: #6c757d;
+}
+
+/* Adicionando estilo para os rótulos animados quando a caixa de entrada está em foco */
+.form-control:focus + .animated-label {
+    top: -12px;
+    font-size: 12px;
+    color: #343a40;
+}
+
+.img-fluid{
+
+	margin-top: 4cm;
+	
+   }
+
